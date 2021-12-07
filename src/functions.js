@@ -3,7 +3,9 @@ const NUM_DAY = { 'mon': 1, 'tue': 2, 'wed': 3, 'thu': 4, 'fri': 5, 'sat': 6, 's
 
 /**
  * Con esta función podemos crear eventos partículas segun sea el caso, 
- * se usa para crear eventos basados en un dia de al semana y en una sema futura, con un horario de apertura y de cierre.
+ * se usa para crear eventos basados en un dia de la semana y en semanas futuras, con un horario de apertura y de cierre para evento. 
+ * 
+ * CONTEXTO: este caso es practico y es basado en una problematica real que es para agendar eventos en google calendar.
  * 
  * @param {String} weekday opciones ('mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun')
  * @param {int} week opciones (1,2,3,4,5,...)
